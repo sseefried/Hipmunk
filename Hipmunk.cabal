@@ -229,7 +229,7 @@ Library
   Extensions:    CPP, ForeignFunctionInterface, EmptyDataDecls
   Build-Tools:   hsc2hs
   GHC-Options:   -Wall
-  CC-Options:    -ffast-math -std=gnu99
+  CC-Options:    -ffast-math -std=gnu99 -DCP_USE_DOUBLES
   if flag(debug)
     CC-Options:  -g
   else
